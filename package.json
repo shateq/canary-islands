@@ -1,4 +1,11 @@
 {
+  "name": "canary-islands",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/shateq/canary-islands.git"
+  },
+  "authors": ["Szymon Wieczorek"],
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",

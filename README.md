@@ -23,10 +23,10 @@ _Here Live: https://canary-islands.vercel.app_
 Start a development server once dependencies installed with `yarn install`
 
 ```bash
-npm run dev
+yarn dev
 
 # start the server, open in a new browser tab
-npm run dev -- --open
+yarn dev -- --open
 ```
 
 ## Build
@@ -34,7 +34,7 @@ npm run dev -- --open
 This uses the [Vercel Adapter](https://github.com/solidjs/solid-start/tree/main/packages/start-vercel) for SolidStart.
 
 ```bash
-npm run build
+yarn build
 ```
 
 ## License
