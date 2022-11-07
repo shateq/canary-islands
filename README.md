@@ -1,30 +1,42 @@
-# SolidStart
+# Canary Islands
 
-This directory is a brief example of a [SolidStart](https://github.com/ryansolid/solid-start) site that can be deployed to Vercel with zero configuration.
+Short informative website featuring Canary Islands
 
-## Deploy Your Own
+_Here Live: https://canary-islands.vercel.app_
 
-Deploy your own SolidStart project with Vercel.
+<details open >
+  <summary><h2>
+    Table of Contents
+  </h2></summary>
+  
+1. [Development](#development)
+2. [Build](#build)
+3. [License](#license)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/solidstart&template=solidstart)
+</details>
 
-_Live Example: https://solid-start-template.vercel.app_
+## Development
 
-## Developing
+- A https://start.solidjs.com/ (Solid Start) web app running on Vercel with Node.js.
+- Yarn is being used to track deps
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Start a development server once dependencies installed with `yarn install`
 
 ```bash
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# start the server, open in a new browser tab
 npm run dev -- --open
 ```
 
-## Building
+## Build
 
 This uses the [Vercel Adapter](https://github.com/solidjs/solid-start/tree/main/packages/start-vercel) for SolidStart.
 
 ```bash
 npm run build
 ```
+
+## License
+
+Licensed under MIT. Check [LICENSE](LICENSE) file for details.
